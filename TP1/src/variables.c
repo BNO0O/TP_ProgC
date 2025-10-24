@@ -1,37 +1,31 @@
 #include <stdio.h>
 
 int main() {
-    // --- Types char ---
     char c = 'A';
     signed char sc = -65;
     unsigned char uc = 200;
 
-    // --- Types short ---
     short s = -32000;
     signed short ss = -12345;
     unsigned short us = 60000;
 
-    // --- Types int ---
     int i = -100000;
     signed int si = -200000;
     unsigned int ui = 4000000000U;
 
-    // --- Types long ---
     long int li = -1234567890L;
     signed long int sli = -987654321L;
     unsigned long int uli = 3000000000UL;
 
-    // --- Types long long ---
     long long int lli = -9223372036854775807LL;
     signed long long int slli = -1234567890123456789LL;
     unsigned long long int ulli = 18446744073709551615ULL;
 
-    // --- Types à virgule flottante ---
+
     float f = 3.14f;
     double d = 2.718281828;
     long double ld = 1.6180339887L;
 
-    // --- Affichage ---
     printf("=== Types de base et leurs valeurs ===\n\n");
 
     printf("char : %c\n", c);
@@ -60,3 +54,4 @@ int main() {
 
     return 0;
 }
+
